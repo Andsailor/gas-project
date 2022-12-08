@@ -1,0 +1,36 @@
+@import './normalize.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    background-color: #2D2D2D;
+}
+
+.container {
+    display: block;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.mt40 {
+    margin-top: 40px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}

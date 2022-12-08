@@ -1,0 +1,99 @@
+@media (max-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+    .comments {
+        &__wrapper {
+            &-slider {
+                .next-arrow {
+                    top: 112%;
+                    right: 15%;
+                }
+                .prev-arrow {
+                    top: 112%;
+                    left: 15%;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+    .comments {
+        &__wrapper {
+            &-slider {
+                .next-arrow {
+                    top: 112%;
+                    right: 25%;
+                }
+                .prev-arrow {
+                    top: 112%;
+                    left: 25%;
+                }
+                &-wrapper {
+                    .slider-back {
+                        display: none;
+                    }
+                    .slider-middle {
+                        display: none;
+                    }
+                    .slider-main {
+                        position: initial;
+                        margin: 0 auto;
+                        width: 100%;
+                        &-item {
+                            padding: 25px
+                        }
+                        
+                    }
+                }
+                &-dots {
+                    max-width: 120px;
+                    .dot {
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+@media (max-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+    .comments {
+        &__wrapper {
+            &-slider {
+                &-wrapper {
+                    height: 100%;
+                    .slider-main {
+                        width: 80%;
+                        height: 100%;
+                        &-item {
+                            padding: 10px;
+                            flex-direction: column;
+                            align-items: center;
+                            text-align: center;
+                            &-text {
+                                margin-left: 0;
+                            }
+                        }
+                    }
+                    .next-arrow {
+                        right: 10%;
+                    }
+                    .prev-arrow {
+                        left: 10%;
+                    }
+                }
+                &-dots {
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}

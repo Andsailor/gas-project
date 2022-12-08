@@ -1,0 +1,20 @@
+@media (max-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+    .question {
+        margin-top: 20px;
+        &__wrapper {
+            &-questions {
+                &-item {
+                    &-text {
+                        font-size: 14px;
+                        &:hover {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

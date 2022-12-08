@@ -1,0 +1,51 @@
+
+.header {
+    background-color: #2D2D2D;
+    height: 120px;
+    &__wrapper{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__img {
+        margin-top: 18px;
+        display: flex;
+        &-divider{
+            margin-top: 45px;
+            margin-left: 24px;
+            background-color: #FFFFFF;
+            width: 1px;
+            height: 33px;
+        }
+        &-title {
+            margin-top: 45px;
+            margin-left: 24px;
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 18px;
+            color: $main-color;
+        }
+    }
+    &__contacts {
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column;
+        &-phone {
+            font-family: 'Russo One';
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+            color: #F1F1F1;
+        }
+        &-question {
+            margin-top: 5px;
+            font-family: 'Open Sans';
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+            color: $main-color
+        }
+    }
+}

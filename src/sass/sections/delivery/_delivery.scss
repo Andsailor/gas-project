@@ -1,0 +1,84 @@
+.delivery {
+    padding-top: 33px;
+    position: relative;
+    background-color: #2D2D2D;
+    background-image: url('../img/gascarrier.png');
+    background-position:right bottom 85%;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    &__conditions {
+        display: flex;
+        &-time {
+            &-subtitle{
+                margin-top: 7px;
+                font-family: 'Open Sans';
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 22px;
+                color: #F1F1F1;
+            }
+        }
+        &-weather {
+            margin-left: 34px;
+            &-subtitle{
+                margin-top: 9px;
+                font-family: 'Open Sans';
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 22px;
+                color: #F1F1F1;
+            }
+        }
+        &-icons {
+            width: 75px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+    &__title {
+        margin: 12px 0 14px 0;
+        font-family: 'Russo One';
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 63px;
+        color: $main-color;
+    }
+    &__subtitle {
+        position: relative;
+        span {
+            font-family: 'Russo One';
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+            color: #F1F1F1;
+
+        }
+        img {
+            position: absolute;
+            top: -4px;
+            transform: translateX(10px);
+        }
+    }
+    &__delivery {
+        margin-top: 14px;
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        color: #F1F1F1;
+        margin-left: 18px;
+    }
+    &__price {
+        margin-top: 104px;
+        font-family: 'Russo One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 43px;
+        text-align: center;
+        color: $main-color;
+
+    }
+
+}

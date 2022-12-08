@@ -1,0 +1,36 @@
+.volume {
+    background-color: rgba(33, 148, 255, 0.10);
+    min-height: 590px;
+    &__wrapper {
+        padding: 34px 0 64px 0;
+        text-align: center;
+        &-title {
+            font-family: 'Russo One';
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 43px;
+            color: #2194FF;
+        }
+        &-buttons {
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            margin-top: 35px;
+            max-width: 730px;
+        }
+        &-img {
+            max-width: 596px;
+            height: 260px;
+            display: block;
+            margin: 0 auto;
+            margin-top: 37px;
+            &-carrier {
+                display: none;
+                margin: 0 auto;
+            }
+        }
+        .btn_volume_square {
+            margin-top: -10px;
+        }
+    }
+}

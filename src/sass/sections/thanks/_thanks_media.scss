@@ -1,0 +1,14 @@
+@media (max-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+    .thanks {
+        &__title {
+            margin-top: 10px;
+            font-size: 25px;
+        }
+        &__subtitle {
+            font-size: 16px;
+        }
+    }
+}

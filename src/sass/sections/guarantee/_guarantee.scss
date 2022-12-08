@@ -1,0 +1,36 @@
+.guarantee {
+    &__wrapper {
+        min-height: 285px;
+        background-image: url('../img/guarantee.png');
+        background-repeat: no-repeat;
+        padding-top: 10px;
+        padding-right: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        &-title {
+            font-family: 'Russo One';
+            font-weight: 400;
+            font-size: 35px;
+            line-height: 42px;
+            color: #F1F1F1;
+            span {
+                color: $main-color;
+            }
+        }
+        &-subtitle {
+            margin-top: 20px;
+            width: 533px;
+            height: 35px;
+            background-color: $main-color;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Open Sans';
+            font-weight: 800;
+            font-size: 14px;
+            line-height: 19px;
+            color: #F1F1F1;
+        }
+    }
+}

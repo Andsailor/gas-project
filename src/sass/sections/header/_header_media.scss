@@ -1,0 +1,45 @@
+@media (max-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+    .header {
+        &__wrapper{ 
+            justify-content: space-around;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+    .header {
+        &__wrapper {
+            align-items: center;
+        }
+        &__img {
+            &-divider {
+                display: none;
+            }
+            &-title {
+                display: none;
+            }
+        }
+    }
+}
+@media (max-width: 576px) { 
+    .container {
+        max-width: 540px;
+    }
+    .header {       
+        &__img {
+            &-logo {
+                width: 170px;
+            }
+        }
+        &__contacts {
+            &-phone {
+                font-size: 15px;
+            }
+        }
+    }
+}

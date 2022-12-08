@@ -1,0 +1,14 @@
+.order {
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        &-title {
+            font-family: 'Russo One';
+            font-weight: 400;
+            font-size: 36px;
+            color: $main-color;
+        }
+    }
+}

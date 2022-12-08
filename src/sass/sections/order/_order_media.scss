@@ -1,0 +1,9 @@
+@media (max-width: 576px) {
+    .order {
+        &__wrapper {
+            &-title { 
+                font-size: 25px;
+            }
+        }
+    }
+}

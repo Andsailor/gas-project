@@ -1,0 +1,161 @@
+.comments {
+    padding: 40px 0;
+    min-height: 532px;
+    &__wrapper {
+        &-title {
+            font-family: 'Russo One';
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 43px;
+            text-align: center;
+            color: #F1F1F1;
+        }
+        &-slider {
+            margin: 0 auto;
+            margin-top: 47px;
+            max-width: 1015px;
+            &-wrapper { 
+                max-width: 839px;
+                height: 320px; 
+                margin: 0 auto;
+                position: relative; 
+                .next-arrow {
+                    cursor: pointer;
+                    position: absolute;
+                    display: flex;
+                    align-items: center;
+                    width: 47px;
+                    z-index: 2;
+                    top: 50%;
+                    right: -10%;
+                    &-first {
+                        width: 18px;
+                        height: 32px;
+                        position: absolute;
+                    }
+                    &-second {
+                        width: 26px;
+                        height: 52px;
+                        position: absolute;
+                    }
+                    &-third {
+                        width: 37px;
+                        height: 72px;
+                        position: absolute; 
+                    }
+                }
+                .prev-arrow {
+                    cursor: pointer;
+                    transform: rotate(180deg);
+                    position: absolute;
+                    display: flex;
+                    align-items: center;
+                    width: 47px;
+                    z-index: 2;
+                    top: 50%;
+                    left: -10%;
+                    &-first {
+                        width: 18px;
+                        height: 32px;
+                        position: absolute;                             
+                    }
+                    &-second {
+                        width: 26px;
+                        height: 52px;
+                        position: absolute;
+                    }
+                    &-third {
+                        width: 37px;
+                        height: 72px;
+                        position: absolute; 
+                    }
+                }      
+                .slider {                  
+                    &-back {
+                        width: 100%;
+                        height: 252px;
+                        background: #F1F1F1;
+                        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+                        border-radius: 40px; 
+                        position: absolute;
+                        top: 34px;  
+
+                    }
+                    &-middle {
+                        width: 95%;
+                        height: 286px;  
+                        background: #F1F1F1;
+                        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+                        border-radius: 40px;
+                        position: absolute;
+                        top: 17px;
+                        right: 21px;
+                    }
+                    &-main {
+                        width: 90%;
+                        height: 320px;
+                        background: #F1F1F1;
+                        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+                        border-radius: 40px;
+                        position: absolute;
+                        right: 41px;
+                        &-item {
+                            padding: 40px 60px 40px 40px;
+                            display: flex;
+                            &-img {
+                                max-width: 201px;
+                                height: 240px;
+                                img {
+                                    min-width: 100%;
+                                }
+                            }
+                            &-text {
+                                margin-left: 23px;
+                                &-name {                                 
+                                font-family: 'Russo One';
+                                font-weight: 400;
+                                font-size: 24px;
+                                line-height: 29px;
+                                color: $main-color;
+                                }
+                                &-city {
+                                    font-family: 'Russo One';
+                                    font-weight: 400;
+                                    font-size: 18px;
+                                    line-height: 22px;
+                                    color: #2D2D2D;
+                                    margin-top: 4px;
+                                }
+                                &-descr {
+                                    margin-top: 15px;
+                                    font-family: 'Open Sans';
+                                    font-weight: 300;
+                                    font-size: 16px;
+                                    line-height: 22px;
+                                    color: #2D2D2D;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &-dots {
+                display: flex;
+                margin: 0 auto;
+                margin-top: 32px;
+                justify-content: space-between;
+                max-width: 340px;
+                .dot {
+                    cursor: pointer;
+                    width: 61px;
+                    height: 18px;
+                    background: rgba(241, 241, 241, 0.2);
+                    border-radius: 20px;
+                    &_active {
+                        background-color: $main-color;
+                    }
+                }
+            }
+        }
+    }
+}

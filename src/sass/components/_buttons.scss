@@ -1,0 +1,119 @@
+.btn {
+    text-align: center;
+    background: $main-color;
+    box-shadow: inset 0px 4px 12px rgba(0, 0, 0, 0.45);
+    border: none;
+    border-radius: 10px; 
+    color: #fff;  
+    cursor: pointer; 
+    &:hover {
+        background-color: lighten($main-color, 5%);
+    }
+    &_delivery {
+        font-family: 'Russo One';
+        width: 395px;
+        height: 87px;
+        margin-top: 40px;      
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 27px;
+        color: #F1F1F1;
+        text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+    }
+    &_order {
+        width: 155px;
+        height: 43px;
+        background: $main-color;
+        border-radius: 50px;
+        font-family: 'Open Sans';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #F1F1F1;
+        margin-top: 28px;
+        &_mt50 {
+            margin-top: 50px;
+        }
+        &_square {
+            width: 295px;
+            height: 87px;
+            background: $main-color;
+            box-shadow: inset 0px 4px 12px rgba(0, 0, 0, 0.45);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 11px;
+            font-family: 'Russo One';
+            font-weight: 400;
+            font-size: 24px;
+            color: #F1F1F1;
+            text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+            margin-top: 11px;
+        }
+    }
+    &_volume {
+        width: 164px;
+        height: 64px;
+        border-radius: 20px;
+        font-family: 'Russo One';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        background: rgba(241, 241, 241, 0.2);
+        color: #F1F1F1;
+        text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+        &_active {
+            background-color: $main-color;
+            pointer-events: none;
+        }
+        &:hover {
+            background-color: rgba(241, 241, 241, 0.5);
+        }
+        &_square {
+            width: 295px;
+            height: 87px;
+            font-size: 24px;
+            background-color: $main-color;
+        }
+    }
+    &_form {
+        width: 220px;
+        height: 47px;
+        border-radius: 50px;
+        font-family: 'Open Sans';
+            font-weight: 700;
+            font-size: 18px;
+            color: #F1F1F1;
+    }
+    &_popup {
+        display: block;
+        max-width: 395px;
+        padding: 29px 17px;
+        height: 87px;
+        font-family: 'Russo One';
+        font-weight: 400;
+        font-size: 24px;
+        color: #F1F1F1;
+        text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+        margin: 0 auto;
+        margin-top: 42px;
+    }
+    &_thanks {
+        display: block;
+        margin: 0 auto;
+        margin-top: 51px;    
+        width: 361px;
+        height: 87px;
+        box-shadow: inset 0px 4px 12px rgba(0, 0, 0, 0.45);
+        border-radius: 11px;
+        font-family: 'Russo One';
+        font-weight: 400;
+        font-size: 24px;
+        text-align: center;
+        color: #F1F1F1;
+        text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+    }
+}
+
+@import './buttons_media';

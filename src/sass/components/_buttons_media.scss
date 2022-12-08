@@ -1,0 +1,39 @@
+@media (max-width: 992px) {
+    .btn {
+        &:hover {
+            background-color: $main-color;
+        }
+        &_volume {
+            &:hover {
+                background-color: none; 
+            }
+            &_active {
+                background-color: $main-color;
+            }
+        }
+    } 
+}
+@media (max-width: 768px) {
+    .btn {
+        &_form {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}
+@media (max-width: 576px) {
+    .btn {
+        &_volume {
+            width: 140px;
+            font-size: 15px;
+        }
+        &_popup {
+            padding: 5px;
+            font-size: 20px;
+        }
+        &_thanks {
+            width: 300px;
+        }
+    }
+
+}

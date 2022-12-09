@@ -1,7 +1,7 @@
 # GAS COMPANY LANDING PAGE
 
 This fully-responsive landing page i created using my own Gulp-config. It's very simple to use and gives all necessary functionality for creating web-projects like this. 
-You can find my Gulp-config in my repositories, or just use link:
+You can find my Gulp-config in my repositories, or just use this [LINK](https://github.com/Andsailor/gulp-simple-config)
 ## What i was working with in this project:
 * ✨SCSS
 * 📒[Animate.css](https://animate.style/)
